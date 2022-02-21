@@ -64,7 +64,7 @@ console.log("arrOfUniqueNumbers  :>> ", arrOfUniqueNumbers);
 
 const arrNumbers2 = [5, 10, 11];
 
-const arrOfUniqueNumbers2 = new Set([...arrNumbers, ...arrNumbers2]);
+const arrOfUniqueNumbers2 = [...arrNumbers, ...arrNumbers2];
 
 console.log("arrOfUniqueNumbers2 :>> ", arrOfUniqueNumbers2);
 
